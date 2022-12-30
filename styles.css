@@ -1,0 +1,141 @@
+body {
+    display: grid;
+    
+    grid-auto-flow: column;
+} 
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 118px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFD900;
+
+}
+header img{
+   margin-top: 25px;
+   margin-left: 60px;
+   margin-bottom: 30px;
+
+    
+}
+
+#texto{
+    background-color:#514988;
+    margin-top: 0px;
+
+   
+}
+
+#texto h1{
+    margin-top: 118px;
+    color: #F3C61F;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 85px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+    }
+
+#texto h2{
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+    font-family: 'Verdana';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#texto p{
+    color: white;
+    text-align: center;
+    font-family: 'Verdana';
+    font-weight: 200;
+    font-size: 29px;
+    line-height: 35px;
+    font-style: normal;
+}
+
+.timer h1 {
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 60px;
+    margin-bottom: 2px;
+    font-family: 'verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    background-color: white;
+    text-align: center;
+    color: #514988;
+    margin-right: 5px;
+
+    
+
+}
+
+.timer h2{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 0;
+    text-align: center;
+
+    color: #E33881;
+}
+
+.timer video {
+    padding-left: 90px;
+}
+
+footer {
+    position: absolute;
+    margin-top: 42%;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+footer h2 {
+    
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    margin-top: 0;
+    margin-left: 35px;
+
+    color: #F3C61F;
+
+}
+
+footer button {
+ 
+    width: 600px;
+    height: 150px;   
+    background: #514988;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    margin-left: 170px;
+    margin-top: 80px;
+    text-align: center;
+    
+}
+
+footer button:hover {
+    background-color: yellow;
+    color: black;
+}
